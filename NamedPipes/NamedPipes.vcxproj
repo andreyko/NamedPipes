@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}</ProjectGuid>
+    <ProjectGuid>{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>NamedPipes</RootNamespace>
   </PropertyGroup>
@@ -75,15 +75,17 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NamedPipeClient.h" />
-    <ClInclude Include="NamedPipeServer.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Server.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NamedPipeClient.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="Client.cpp" />
     <ClCompile Include="NamedPipes.cpp" />
-    <ClCompile Include="NamedPipeServer.cpp" />
+    <ClCompile Include="Server.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

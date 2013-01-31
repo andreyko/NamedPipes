@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipes", "NamedPipes\NamedPipes.vcxproj", "{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipes", "NamedPipes\NamedPipes.vcxproj", "{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}.Debug|Win32.ActiveCfg = Debug|Win32
-		{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}.Debug|Win32.Build.0 = Debug|Win32
-		{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}.Release|Win32.ActiveCfg = Release|Win32
-		{80D2BAEB-56D4-4B5C-A7E7-1362164F3313}.Release|Win32.Build.0 = Release|Win32
+		{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}.Debug|Win32.Build.0 = Debug|Win32
+		{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}.Release|Win32.ActiveCfg = Release|Win32
+		{A3585885-199E-41FF-8ABA-CE2DB4DA6B02}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
